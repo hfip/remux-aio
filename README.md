@@ -9,6 +9,18 @@
     <img src="https://img.shields.io/badge/Talk%20on-Discord-brightgreen">
 </a>
 </div>
+---
+
+> [!WARNING]
+> **Experimental / Work in Progress — Pre-release**
+>
+> This project is incomplete and intended for developers and manual testing only. It currently requires manual setup and is **not recommended for production environments or direct use as a ready-made container**.
+>
+> **Known Issues**
+>
+> - Local Docker image builds may fail because the required `jellyfin-web` interface files are not included in the current source checkout.
+> - There is currently no official public `aiometadata` container image available through GHCR, so the AIOMetadata service cannot yet be deployed from a verified official GHCR image in the default Compose setup.
+> - The AIO integration and deployment workflow are still experimental and may require additional manual configuration.
 
 ---
 
